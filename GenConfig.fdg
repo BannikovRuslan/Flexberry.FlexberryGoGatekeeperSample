@@ -11,8 +11,8 @@
     "Validate": false,
     "Frontend": {
       "EmberJs": {
-        "EmberApp": true,
-        "EmberAddon": false,
+        "EmberApp": false,
+        "EmberAddon": true,
         "Build": false,
         "GitClone": false,
         "GitPush": false,
@@ -29,7 +29,7 @@
       "Java": false
     },
     "Docker": {
-      "Dockerfile": false,
+      "Dockerfile": true,
       "DockerfileAutobuild": false,
       "DockerBuildShellScript": false,
       "DockerSwarm": false
@@ -51,7 +51,7 @@
       },
       "ClickHouse": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "ConnectionString": null
       },
       "Oracle": {
@@ -70,7 +70,7 @@
       "Wmf": false
     },
     "Metadata": {
-      "Crp": false,
+      "Crp": true,
       "Json": false
     }
   }
